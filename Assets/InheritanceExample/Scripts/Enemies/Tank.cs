@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+
 public class Tank : EnemyBase
 {
-    bool isTimerOn = false;
+    private bool isTimerOn = false;
     protected override async void OnHit()
     {
         if (isTimerOn)
