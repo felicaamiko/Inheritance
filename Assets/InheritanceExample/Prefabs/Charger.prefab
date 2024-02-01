@@ -359,7 +359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be6004ac96c3264c9ad554a2422daaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 3
+  _health: 2
   _deathSound: {fileID: 8300000, guid: 3e3e3e5716c2533409755571490cc2c4, type: 3}
-  _hitSound: {fileID: 8300000, guid: eeb3bcaf9a1e08b4ca2540b8b4157f6b, type: 3}
+  _hitSound: {fileID: 8300000, guid: 5b797ee3c97827f4ea19c3038ca7a14a, type: 3}
   MoveSpeed: 0.1
+  PowerUp: {fileID: 4549945117582617916, guid: 3a2043617224b9f4a994f12d527e2983, type: 3}
