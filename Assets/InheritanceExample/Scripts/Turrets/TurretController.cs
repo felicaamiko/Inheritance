@@ -9,7 +9,7 @@ public class TurretController : MonoBehaviour
     [SerializeField] private GameObject _aimIndicator;
 
     public float FireCooldown { get; set; } = .5f;
-
+    //public float FireCooldown { get; set; } = .5f;
     public bool IsReadyToFire { get; private set; } = true;
 
     private Camera _camera;
@@ -24,7 +24,7 @@ public class TurretController : MonoBehaviour
     {
         if (IsReadyToFire == false)
         {
-            _elapsedCooldownTime += Time.deltaTime;
+            _elapsedCooldownTime += (Time.deltaTime * PowerUp.PowerupSpeed);
             if (_elapsedCooldownTime >= FireCooldown)
             {
                 IsReadyToFire = true;

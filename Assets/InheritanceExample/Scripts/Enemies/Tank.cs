@@ -17,7 +17,7 @@ public class Tank : EnemyBase
         {
             base.MoveSpeed = 0;
             StartCoroutine(Timer());
-            Debug.Log("reached");
+            //Debug.Log("reached");
         }
         //yield return new WaitForSeconds(1f);
         
